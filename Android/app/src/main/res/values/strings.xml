@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Niner Sense</string>
+    <string name="start">Manage Community</string>
+    <string name="welcome">Niner Sense</string>
+    <string name="subwelcome">Real-Time and Mobile Tutoring Solution</string>
+    <string name="username_hint">Enter Username</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="reset_button">   Reset   </string>
+    <string name="login_button">   Login    </string>
+    <string name="register_button">Register</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="exit_button">Exit</string>
+    <string name="noInternet">No Internet Connection</string>
+    <string name="HomeActivity">Home</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="password_verify_label">Verify Password</string>
+    <string name="password_verify_hint">Password</string>
+    <string name="email_label">Email</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="phone">Phone No:</string>
+    <string name="email_hint">Email</string>
+    <string name="firstName_hint">Enter First Name</string>
+    <string name="phone_hint">Enter Phone Number</string>
+    <string name="lastName_hint">Enter Last Name</string>
+    <string name="gender_label">Gender</string>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="accept_agreement_label">Accept Agreement</string>
+    <string name="register_button_label">Register</string>
+    <string name="reset_button_label">Reset</string>
+    <string name="back_button_label">Back</string>
+
+    <!-- Error Messages -->
+    <string name="success_message">Verification was Successful!</string>
+    <string name="username_error_message">Username Not Provided!</string>
+    <string name="password_error_message">Password Not Provided!</string>
+    <string name="minimum_length_error">Please Enter More Than 5 Characters!</string>
+    <string name="passwordmatch_error_message">Passwords Do Not Match!</string>
+    <string name="fName_error_message">First Name Not Provided!</string>
+    <string name="lName_error_message">Last Name Not Provided!</string>
+    <string name="email_error_message">Email Not Provided!</string>
+    <string name="emailpattern_error_message">Email Format Invalid!</string>
+    <string name="phone_error_message">Phone Number Not Provided!</string>
+    <string name="agreement_error_message">You Must Accept the Agreement!</string>
+
+</resources>
