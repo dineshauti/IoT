@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: ninersense
+  host: ninersense
+  disk_quota: 1024M
+  services:
+  - mysql-3s
+  - Internet of Things Platform-mr
+  buildpack: php_buildpack

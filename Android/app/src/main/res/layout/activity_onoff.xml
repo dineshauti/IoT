@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+        tools:context="edu.uncc.dauti.ninersense_new.MainActivity">
+
+    <Switch
+        android:id="@+id/frontdoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Front Door               "
+        android:layout_marginLeft="16dp"
+        android:onClick="frontdoor"/>
+
+    <Switch
+        android:id="@+id/backdoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back Door               "
+        android:layout_marginLeft="16dp"
+        android:onClick=""/>
+
+    <Button
+        android:text="webcam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/webview" />
+</LinearLayout>
