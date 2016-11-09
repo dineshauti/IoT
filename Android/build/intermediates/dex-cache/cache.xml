@@ -3,156 +3,156 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_a69592483d23273679c12c91c2e2797116d63b4d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_62bd0a3929807672bd98f79f5d9b9a1359ebd5c0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_27cc48e9743fc76eed67164868d20b06dd715222\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ce6a4d07803a3cd5e7beb4a230017385e8595de1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_52e8d04c5e32d09abcacbc50ebd3f69671feb3d2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_08d826a1dd24e58ad054a5ed530c376d4ceab3d4\classes.dex" />
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_e8e635b1f1d78f438063375afcc9289197042e9b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_81d16c2520635f1b2e7566f64e7089478f47d0bc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="aedd55ae6e96defc606d7dfad6be4d51b47f4aed">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_770afba7514601c3c3579b665df9451193978d7e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Dinesh Auti\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jar="C:\Users\Sourabhpc\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_04acad86d403f2fcb9da193e35b526f90ce725a9\classes.dex" />
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_78f6b8bcde9c2c8dd24d0f15ff41476cd9979478\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_cdf40f030ff2f0fc64c09a07709dde123d11b6c2\classes.dex" />
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a738988cd50794b7f7ca129cb7d1f899f796531b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_cf57b98e14e7dc9749bd10d0099acf757b81e880\classes.dex" />
+        sha1="442289a56a4e0f4e7805891770235f6170d1b28f">
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_084f35036146c7e84e81d186721e6d0c8662aace\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_d63a190e457bb17549027ed3d75ab548afe129a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_032b14e4091b32e71cb19b5831b51d0749c00706\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_168f8f0c93e3b892be8735adff461004734bb997\classes.dex" />
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_999f1acc46bf39b5fa6d71a439273cef270e7958\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_c84541cd1cd9200002c152654ac47b0248ae76c2\classes.dex" />
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_faf5cd8a116204435a5c3efb3b2325b85668a16d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8c0d94b91e5b2c0c99bc559d9fad38e5fbadb6e8\classes.dex" />
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_cc23d85e91a34187918666f0064bd08666573aa4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_0004d40fbb20c0329aea316647a077e49716883f\classes.dex" />
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_09448054c30e0e349b5179a4851d94c7998332a1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d1def71747fda5e82a1f466760371e04be3fc6bd">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1e20a2bd3cb444a00e865b17d817d67e77299d52\classes.dex" />
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_06543e219632aa96db92d833090a6d2ce3a2ea4b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_5d59e574ca7b68a1a30538302198384fbe843577\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_2f9d2f4aefcdbba3f751989f4b1289cd7eea9543\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9f60ec1c026be52422b090bbb327534953476848">
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_18ce11e37044f6861086c0a1bb005c215e4a89a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_5a275e9148137ba2df849d30db743979915173d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_72790c4d0d07d026ec77e299c65486dc3999033d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Dinesh Auti\Desktop\NinerSense_phase1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d00b83229444b2dd3942cec704a013c5f961684a\classes.dex" />
+        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_57d3caca070e175a9481b7f1702272368a86cf6d\classes.dex" />
     </item>
 
 </items>
