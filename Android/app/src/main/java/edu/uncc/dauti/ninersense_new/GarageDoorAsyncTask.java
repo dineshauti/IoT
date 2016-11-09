@@ -10,6 +10,8 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import javax.net.ssl.HttpsURLConnection;
+
 /**
  * Created by Sajin S on 10/25/2016.
  */
@@ -29,8 +31,8 @@ public class GarageDoorAsyncTask extends AsyncTask<String, Void, String> {
         try {
             String str = params[0];
 
-            url = new URL("http://192.168.1.2/garagedoor.php");
-            HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+            url = new URL("https://ninersense.mybluemix.net/garagedoor.php");
+            HttpsURLConnection urlConnection = (HttpsURLConnection) url.openConnection();
             String data = "garagedoor=" + str;
             urlConnection.setRequestMethod("POST");
             urlConnection.setDoOutput(true);

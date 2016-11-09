@@ -10,6 +10,8 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import javax.net.ssl.HttpsURLConnection;
+
 /**
  * Created by Sourabhpc on 10/26/2016.
  */
@@ -21,8 +23,8 @@ public class BackDoorAsyncTask extends AsyncTask<String, Void, String> {
         String result = "";
         URL url = null;
         try {
-            url = new URL("http://192.168.1.2/backdoor.php");
-            HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+            url = new URL("https://ninersense.mybluemix.net/backdoor.php");
+            HttpsURLConnection urlConnection = (HttpsURLConnection) url.openConnection();
             String data = "backdoor=" + str;
             urlConnection.setRequestMethod("POST");
             urlConnection.setDoOutput(true);
