@@ -6,7 +6,6 @@ import android.util.Log;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -39,6 +38,7 @@ public class GetLoginAysncTask extends AsyncTask<String,Void,String> {
             urlConnection.setRequestMethod("POST");
             urlConnection.setDoOutput(true);
             urlConnection.getOutputStream().write(data.getBytes("UTF-8"));
+
             BufferedReader reader = new BufferedReader(new InputStreamReader(urlConnection.getInputStream(), "iso-8859-1"), 8);
             StringBuilder sb = new StringBuilder();
             String line = null;

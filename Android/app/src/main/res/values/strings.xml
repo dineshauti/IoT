@@ -3,8 +3,9 @@
 
     <string name="hello">Hello World!</string>
     <string name="app_name">Niner Sense</string>
+    <string name="room">70</string>
     <string name="start">Manage Community</string>
-    <string name="welcome">Niner Sense</string>
+    <string name="welcome">NinerSense™</string>
     <string name="subwelcome">Real-Time and Mobile Tutoring Solution</string>
     <string name="username_hint">Enter Username</string>
     <string name="password_hint">Enter Password</string>

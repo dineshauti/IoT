@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content" >
 
-    <LinearLayout android:layout_width="fill_parent"
+    <RelativeLayout android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"
         android:paddingBottom="@dimen/activity_vertical_margin"
@@ -11,74 +11,114 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin">
 
-    <Button
-        android:text="Front Door"
-
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/frontdoorbutton"
-        />
-
-    <Button
-        android:text="Backdoor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/backdoorbutton"
-        />
-
-    <Button
-        android:text="Garage Door 1 Car"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/garagedoorbutton" />
-
-    <Button
-        android:text="Garage Door 2 car"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/garagedoor2button" />
-
-    <Button
-        android:text="Motion Detector"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/motiondetectorbutton" />
-
-    <Button
-        android:text="Window Main Floor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/windowmainbutton" />
-
-    <Button
-        android:text="Window Upstairs"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/windowupstairsbutton" />
-
-    <Button
-        android:text="Webcam"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/webview" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Weather"
-        android:id="@+id/weather"
-        />
 
         <Button
+            android:text="Front Door"
+
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/frontdoorbutton"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:text="Backdoor"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignRight="@+id/frontdoorbutton"
+            android:layout_alignParentRight="true"
+            android:id="@+id/backdoorbutton"
+            />
+
+        <Button
+            android:text="Garage Door 1 Car"
+
+            android:id="@+id/garagedoorbutton"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/frontdoorbutton"/>
+
+        <Button
+            android:text="Garage Door 2 car"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/backdoorbutton"
+            android:id="@+id/garagedoor2button" />
+        <Button
+            android:text="Motion Detector"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/garagedoorbutton"
+            android:id="@+id/motiondetectorbutton" />
+        <Button
+            android:text="Window Main Floor"
+            android:layout_width="170dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="170dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/garagedoor2button"
+            android:id="@+id/windowmainbutton" />
+        <Button
+            android:text="Window Upstairs"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/motiondetectorbutton"
+            android:id="@+id/windowupstairsbutton" />
+
+        <Button
+            android:text="Webcam"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/windowmainbutton"
+            android:id="@+id/webview" />
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="Weather"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/weather"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/windowupstairsbutton"
+            />
+        <Button
             android:text="Security System"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="170dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="170dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/webview"
             android:id="@+id/securitybutton" />
 
         <Button
             android:text="Thermostat"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/weather"
             android:id="@+id/thermostat" />
-    </LinearLayout>
+
+
+
+
+    </RelativeLayout>
 
 </ScrollView>

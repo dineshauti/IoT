@@ -19,7 +19,7 @@ import java.net.URL;
 public class WeatherAsyncTask extends AsyncTask<String, Void, String> {
 
     IData context;
-    private String weatherAPI = "https://api.darksky.net/forecast/6e204a2cf67e1ae67497355898a6cb0b/35.3041,-80.7267";
+    private String weatherAPI = "https://api.darksky.net/forecast/6e204a2cf67e1ae67497355898a6cb0b/35.2271,-80.7267";
     public WeatherAsyncTask(IData context) { this.context=context;}
 
     @Override

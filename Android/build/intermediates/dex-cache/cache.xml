@@ -2,157 +2,202 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_e8e635b1f1d78f438063375afcc9289197042e9b\classes.dex" />
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.0.0_6e8539221f37aabe655dec1b1220061e39f67b8c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Sourabhpc\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_78f6b8bcde9c2c8dd24d0f15ff41476cd9979478\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a738988cd50794b7f7ca129cb7d1f899f796531b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="442289a56a4e0f4e7805891770235f6170d1b28f">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_084f35036146c7e84e81d186721e6d0c8662aace\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_d63a190e457bb17549027ed3d75ab548afe129a0\classes.dex" />
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_c1645a2b79e23084d4b8a6192be97305987ba45d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_032b14e4091b32e71cb19b5831b51d0749c00706\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_999f1acc46bf39b5fa6d71a439273cef270e7958\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_faf5cd8a116204435a5c3efb3b2325b85668a16d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_cc23d85e91a34187918666f0064bd08666573aa4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_09448054c30e0e349b5179a4851d94c7998332a1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_06543e219632aa96db92d833090a6d2ce3a2ea4b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_5d59e574ca7b68a1a30538302198384fbe843577\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_2f9d2f4aefcdbba3f751989f4b1289cd7eea9543\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9f60ec1c026be52422b090bbb327534953476848">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_18ce11e37044f6861086c0a1bb005c215e4a89a5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_5a275e9148137ba2df849d30db743979915173d2\classes.dex" />
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_23a5858e49b5b90931178ec836e7b2869b11d36d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_a95c51198981f0f73e2d940490030384ba0a013d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.0.0_cdbc906fab83e90d4d431b8105d1df370046d94d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_72790c4d0d07d026ec77e299c65486dc3999033d\classes.dex" />
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_1de8d94343db1cb70a0f6683d58f665d89785578.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="F:\IoT_all_docs\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_24f19a0d9b133767a94955e35a1f3e4dcbafb65c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_0463b3acc88831ee325e7108d89740721c8d8e8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.0.0_2847a1efd3bf05a811b03ee19b54b3e188452082.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_b2a4d23c2e519b8e5f35c65150e9e8190c981630.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_9c26830407698f5dce63aee2108a6c8278aaa5ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="F:\IoT_all_docs\IoT\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_57d3caca070e175a9481b7f1702272368a86cf6d\classes.dex" />
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_102888253a2ea80306eec06dd75d24ec857a1d05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.0.0_0fdc0f005a1fb22fbf50155cceead192f490aba1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_7d2d31944ed4f82916bdb5f7db71dee405a500f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_92183eaf73cd8a2be28e45e97d7f684dd767a453.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.0.0_fcb662e47a991c0ab654615cd5f49c8ec67da387.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_220b9d001fbce620863c1e095c49c76cd4224374.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.0.0_3e8fef52c06dc660d9d15b48a5e675ae30a25cc5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sajin S\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_ef59f9751a23c9ba6f101ada98fdab40fce17f5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_2a342319e29244939b34f7f5291f83245d1e476e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.0.0_592504e5fb994393774ea492c74758fe92d31bf3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="G:\AndroidStudioProjects\IoT latest\IoT\Android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_85032e148f3885c235ca6568c9dd3543fdee0d53.jar" />
     </item>
 
 </items>

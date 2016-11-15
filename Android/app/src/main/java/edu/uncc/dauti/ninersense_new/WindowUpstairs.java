@@ -1,5 +1,6 @@
 package edu.uncc.dauti.ninersense_new;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -17,12 +18,29 @@ public class WindowUpstairs extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_windowupstairs);  //change the activity name
 
+        Switch simpleSwitch = (Switch) findViewById(R.id.windowupstairsswitch);
+
+        SharedPreferences sharedPreferences = getSharedPreferences("edu.uncc.dauti.ninersense_new",MODE_PRIVATE);
+        simpleSwitch.setChecked(sharedPreferences.getBoolean("windowupstairs",false));
+
     }
 
     public void windowupstairs(View view) {
         Switch simpleSwitch = (Switch) findViewById(R.id.windowupstairsswitch);
         switchState = simpleSwitch.isChecked();
         String str = String.valueOf(switchState);
+        if (simpleSwitch.isChecked())
+        {
+            SharedPreferences.Editor editor = getSharedPreferences("edu.uncc.dauti.ninersense_new",MODE_PRIVATE).edit();
+            editor.putBoolean("windowupstairs", true);
+            editor.commit();
+        }
+        else
+        {
+            SharedPreferences.Editor editor = getSharedPreferences("edu.uncc.dauti.ninersense_new",MODE_PRIVATE).edit();
+            editor.putBoolean("windowupstairs", false);
+            editor.commit();
+        }
         new WindowsUpstairsAsyncTask().execute(str);
 
     }

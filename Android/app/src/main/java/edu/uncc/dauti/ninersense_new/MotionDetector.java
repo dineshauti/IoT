@@ -1,5 +1,6 @@
 package edu.uncc.dauti.ninersense_new;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -17,12 +18,31 @@ public class MotionDetector extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_motiondetector);  //change the activity name
 
+        Switch simpleSwitch = (Switch) findViewById(R.id.motiondetectorswitch);
+
+        SharedPreferences sharedPreferences = getSharedPreferences("edu.uncc.dauti.ninersense_new",MODE_PRIVATE);
+        simpleSwitch.setChecked(sharedPreferences.getBoolean("motion",false));
+
+
     }
 
     public void motiondetector(View view) {
         Switch simpleSwitch = (Switch) findViewById(R.id.motiondetectorswitch);
         switchState = simpleSwitch.isChecked();
         String str = String.valueOf(switchState);
+
+        if (simpleSwitch.isChecked())
+        {
+            SharedPreferences.Editor editor = getSharedPreferences("edu.uncc.dauti.ninersense_new",MODE_PRIVATE).edit();
+            editor.putBoolean("motion", true);
+            editor.commit();
+        }
+        else
+        {
+            SharedPreferences.Editor editor = getSharedPreferences("edu.uncc.dauti.ninersense_new",MODE_PRIVATE).edit();
+            editor.putBoolean("motion", false);
+            editor.commit();
+        }
         new MotionDetectorAsyncTask().execute(str);
 
     }

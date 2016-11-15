@@ -1,9 +1,9 @@
 package edu.uncc.dauti.ninersense_new;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * Created by Sourabhpc on 10/26/2016.
@@ -14,11 +14,8 @@ public class WebCam extends AppCompatActivity {
     {super.onCreate(savedInstanceState);
         setContentView(R.layout.webcam_layout);
 
-        WebView browser = (WebView) findViewById(R.id.webview);
-        WebSettings webSettings = browser.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-
-        browser.loadUrl("http://192.168.0.6:8080/flash.html");
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ustream.tv/channel/3GDExYEcFFH?utm_campaign=ustre.am&utm_source=ustre.am%2F1xH7w&utm_medium=social&utm_content=20161112142306"));
+        startActivity(browserIntent);
 
 
     }

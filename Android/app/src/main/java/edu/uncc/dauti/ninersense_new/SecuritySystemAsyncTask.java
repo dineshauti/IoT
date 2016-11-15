@@ -6,9 +6,10 @@ import android.util.Log;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+
+import javax.net.ssl.HttpsURLConnection;
 
 /**
  * Created by Sajin S on 10/27/2016.
@@ -20,14 +21,12 @@ public class SecuritySystemAsyncTask extends AsyncTask<String, Void, String>
 
     @Override
     protected String doInBackground(String... params) {
-        String str = params[0];
-        Log.d("abcd",str);
-        //Toast.makeText(SecuritySystemAsyncTask.this,params[0],Toast.LENGTH_SHORT);
         String result = "";
         URL url = null;
         try {
-            url = new URL("http://192.168.1.2/security.php");
-            HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+            String str = params[0];
+            url = new URL("https://ninersense.mybluemix.net/security.php");
+            HttpsURLConnection urlConnection = (HttpsURLConnection) url.openConnection();
             String data = "security=" + str;
             urlConnection.setRequestMethod("POST");
             urlConnection.setDoOutput(true);
