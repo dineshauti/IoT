@@ -1,33 +1,68 @@
 <?php
-$con = mysqli_connect("localhost","root","");
-mysqli_select_db($con,"sensors");
 
-if(!empty($_POST))
-{
+    if(!$_ENV["VCAP_SERVICES"]){ //local dev
+        $mysql_server_name = "127.0.0.1:3306";
+        $mysql_username = "root";
+        $mysql_password = "";
+        $mysql_database = "test";
+    } else { //running in Bluemix
+        $vcap_services = json_decode($_ENV["VCAP_SERVICES" ]);
 
+        if(isset($vcap_services->mysql[0]->credentials)){ //if "mysql" db service is bound to this application
+            $db = $vcap_services->mysql[0]->credentials;
+
+        } else { 
+            echo "Error: No suitable MySQL database bound to the application. <br>";
+            die();
+        }
         
+        $mysql_database = $db->name;
+        $mysql_port=$db->port;
+        $mysql_server_name =$db->hostname . ':' . $db->port;
+        $mysql_username = $db->username; 
+        $mysql_password = $db->password;
+    }
+    //echo "Debug: " . $mysql_server_name . " " .  $mysql_username . " " .  $mysql_password . "\n";
+    $mysqli = new mysqli($mysql_server_name, $mysql_username, $mysql_password, $mysql_database);
+
+    if ($mysqli->connect_errno) {
+        echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+        die();
+    }
+
+	//echo "Hello"; 
+
+ if(!empty($_POST))
+ {
+   
+ $usr=$_POST["security"];
+
+ $status = 0;
+ if ($usr == "0")
+	$status = 0;
+
+ if ($usr  == "1")
+	$status = 1;
+
+ if ($usr  == "2")
+	$status = 2;
+
+ 
+ 
+ 
+	$q = "UPDATE `security` SET `security_status`=$status WHERE 1";
+
+		if ($mysqli->query($q)) {
+        	echo "Insert success!";
+	    } else {
+	        echo "Cannot insert into the data table; check whether the table is created, or the database is active. " . mysqli_error();
+	    }
 
 
-	$usr=$_POST["security"];
+		mysqli_close();
 
-$status = 0;
-if ($usr == "0")
-$status = 0;
-
-if ($usr  == "1")
-$status = 1;
-
-if ($usr  == "2")
-$status = 2;
-mysqli_query($con,"UPDATE `securitysystem` SET `door_status`= $status WHERE id = 1");
+ }
 
 
-	
 
-
-}
-
-mysqli_close($con);
-
-
-?>	
+?>

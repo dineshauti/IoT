@@ -1,5 +1,6 @@
 package edu.uncc.dauti.ninersense_new;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -17,6 +18,11 @@ public class GarageDoor extends AppCompatActivity implements GarageDoorAsyncTask
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_garagedoor);
 
+        Switch simpleSwitch = (Switch) findViewById(R.id.garagedoorswitch);
+
+        SharedPreferences sharedPreferences = getSharedPreferences("edu.uncc.dauti.ninersense_new",MODE_PRIVATE);
+        simpleSwitch.setChecked(sharedPreferences.getBoolean("Garage1",false));
+
     }
 
     public void garagedoor(View view) {
@@ -24,6 +30,19 @@ public class GarageDoor extends AppCompatActivity implements GarageDoorAsyncTask
         switchState = simpleSwitch.isChecked();
         String str = String.valueOf(switchState);
         //Log.d("z",str);
+
+        if (simpleSwitch.isChecked())
+        {
+            SharedPreferences.Editor editor = getSharedPreferences("edu.uncc.dauti.ninersense_new",MODE_PRIVATE).edit();
+            editor.putBoolean("Garage1", true);
+            editor.commit();
+        }
+        else
+        {
+            SharedPreferences.Editor editor = getSharedPreferences("edu.uncc.dauti.ninersense_new",MODE_PRIVATE).edit();
+            editor.putBoolean("Garage1", false);
+            editor.commit();
+        }
         new GarageDoorAsyncTask(GarageDoor.this).execute(str);
 
     }
